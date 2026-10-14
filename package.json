@@ -1,0 +1,33 @@
+{
+  "name": "estoque-backend-turma-2026-2",
+  "version": "1.0.0",
+  "description": "Controle de Estoque da Turma 2026/2",
+  "homepage": "https://github.com/viniciusbarc/estoque-backend-turma-2026-2#readme",
+  "bugs": {
+    "url": "https://github.com/viniciusbarc/estoque-backend-turma-2026-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusbarc/estoque-backend-turma-2026-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "tsx dist/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/readline-sync": "^1.4.8",
+    "jest": "^30.5.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "ts-jest": "^29.4.14",
+    "tsx": "^4.23.15"
+  }
+}

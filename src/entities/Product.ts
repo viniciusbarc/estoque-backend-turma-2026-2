@@ -19,6 +19,10 @@ export class Product {
         const quantityInStock = 0;
         return new Product(barcode, name, quantityInStock);
     }
+
+    public static rebuild(barcode: string, name: string, quantityInStock: number): Product {
+        return new Product(barcode, name, quantityInStock);
+    }
     
     public getBarcode(): string {
         return this.barcode;

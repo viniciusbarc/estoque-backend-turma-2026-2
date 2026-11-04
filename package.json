@@ -23,6 +23,7 @@
   "devDependencies": {
     "@stryker-mutator/core": "^10.1.1",
     "@stryker-mutator/jest-runner": "^10.1.1",
+    "@types/better-sqlite3": "^9.6.0",
     "@types/jest": "^30.0.0",
     "@types/readline-sync": "^1.4.8",
     "jest": "^30.5.2",
